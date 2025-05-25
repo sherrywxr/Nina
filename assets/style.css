@@ -90,9 +90,7 @@ max-height: 700px;
   height: auto;
   display: block;
 }
-#about {
-margin-top: 50px;
-}
+
 
 #about-me {
   flex: 2;
@@ -350,11 +348,6 @@ input[type="submit"] {
     flex-direction: column;
   }
 
-  /* .form-container {
-	background-color: white;
-	padding: 50px;
-	border-radius: 20px;
-  } */
 
   #contact .picture.right {
     margin-top: 1em;
