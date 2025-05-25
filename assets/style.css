@@ -91,6 +91,9 @@ max-height: 700px;
   display: block;
 }
 
+#about {
+margin-top: 50px;
+}
 
 #about-me {
   flex: 2;
