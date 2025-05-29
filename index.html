@@ -3,13 +3,27 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" media="print" onload="this.media='all'">
+	<noscript>
+		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	</noscript>
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
+	<!-- Preload fonts -->
+	<link rel="preload" as="style"
+		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
+
+	<!-- Load font asynchronously to prevent render-blocking -->
+	<link rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-		rel="stylesheet">
+		media="print" onload="this.media='all'">
+
+	<!-- Fallback for users without JavaScript -->
+	<noscript>
+		<link rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
+	</noscript>
 	<link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
 		type="image/webp">
 	<meta charset="UTF-8">
