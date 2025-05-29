@@ -127,7 +127,8 @@ margin-top: 50px;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
+  color:black;
+  font-weight: bold;
   background-color: #beb45a;
   border-radius: 0;
   cursor: pointer;
