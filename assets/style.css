@@ -288,12 +288,13 @@ input[type="submit"] {
   #about,
   #contact .container {
     align-items: center;
+    padding: 15px;
   }
   .about-me__title {
     margin-top: 0;
     margin-bottom: 1em;
   }
-  #about-me h6,
+  #about-me h3,
   #about-me p {
     width: 100%;
   }
@@ -305,6 +306,7 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
   #about {
     flex-direction: column;
+    padding: 5px;
   }
   .about-me__introduction {
     margin: 0 auto;
@@ -312,6 +314,11 @@ input[type="submit"] {
   }
   .picture {
     width: 50%;
+  }
+  .picture img{
+    width:100%;
+    max-width: 250px;
+    padding-top: 15px;
   }
   .picture.left::before {
     width: 100%;
@@ -389,6 +396,10 @@ input[type="submit"] {
     padding-block: 1em;
     text-align: center;
   }
+  .picture img{
+    padding-top: 0px;
+  }
+
   .picture.left::before,
   .picture.right::before {
     height: 150px;
