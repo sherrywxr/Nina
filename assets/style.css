@@ -38,11 +38,15 @@ body {
   color: #000;
 }
 .carousel-inner {
-max-height: 700px;
+  max-height: 700px;
 }
+.carousel-inner img {
+  height: 100%;
+}
+
 .visually-hidden {
   background-color: white;
-  color:black;
+  color: black;
 }
 .carousel-control-prev-icon {
   background-color: #007bff;
@@ -50,7 +54,7 @@ max-height: 700px;
   padding: 30px;
   border-radius: 4px;
   font-size: 20px;
-  opacity:1;
+  opacity: 1;
 }
 .carousel-control-next-icon {
   background-color: #007bff;
@@ -97,7 +101,7 @@ max-height: 700px;
 }
 
 #about {
-margin-top: 50px;
+  margin-top: 50px;
 }
 
 #about-me {
@@ -132,7 +136,7 @@ margin-top: 50px;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color:black;
+  color: black;
   font-weight: bold;
   background-color: #beb45a;
   border-radius: 0;
@@ -285,6 +289,7 @@ input[type="submit"] {
   .picture {
     flex: 2;
   }
+
   #about,
   #contact .container {
     align-items: center;
@@ -298,8 +303,8 @@ input[type="submit"] {
   #about-me p {
     width: 100%;
   }
-  .title{
-	padding-bottom: 5px;
+  .title {
+    padding-bottom: 5px;
   }
 }
 
@@ -315,8 +320,8 @@ input[type="submit"] {
   .picture {
     width: 50%;
   }
-  .picture img{
-    width:100%;
+  .picture img {
+    width: 100%;
     max-width: 250px;
     padding-top: 15px;
   }
@@ -329,13 +334,14 @@ input[type="submit"] {
     left: 0;
     z-index: -1;
   }
+
   .about-me__title {
     text-align: center;
     margin-top: 1em;
   }
 
-  .title{
-	padding-bottom: 5px;
+  .title {
+    padding-bottom: 5px;
   }
 
   #services .container {
@@ -363,7 +369,6 @@ input[type="submit"] {
   #contact .container {
     flex-direction: column;
   }
-
 
   #contact .picture.right {
     margin-top: 1em;
@@ -396,7 +401,8 @@ input[type="submit"] {
     padding-block: 1em;
     text-align: center;
   }
-  .picture img{
+
+  .picture img {
     padding-top: 0px;
   }
 
@@ -424,17 +430,17 @@ input[type="submit"] {
   .picture img {
     width: 100%;
     max-width: 180px;
-	margin: 0 auto;
-	width: fit-content; 
+    margin: 0 auto;
+    width: fit-content;
   }
   .about-me__title {
     font-size: 20px;
     font-weight: bold;
   }
   .about-me__introduction {
-	font-size: 20px;
+    font-size: 20px;
   }
   .title {
-	padding-bottom: 5px;
+    padding-bottom: 5px;
   }
 }
