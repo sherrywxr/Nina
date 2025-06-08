@@ -41,7 +41,7 @@ body {
   max-height: 700px;
 }
 .carousel-inner img {
-  height: 500px;
+  height: 600px;
   object-fit: cover;
 }
 
@@ -290,7 +290,10 @@ input[type="submit"] {
   .picture {
     flex: 2;
   }
-
+  .carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+  }
   #about,
   #contact .container {
     align-items: center;
@@ -310,6 +313,11 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 1000px) {
+  .carousel-inner img {
+    height: 300px;
+    object-fit: cover;
+  }
+
   #about {
     flex-direction: column;
     padding: 5px;
@@ -402,7 +410,10 @@ input[type="submit"] {
     padding-block: 1em;
     text-align: center;
   }
-
+  .carousel-inner img {
+    height: 200px;
+    object-fit: cover;
+  }
   .picture img {
     padding-top: 0px;
   }
